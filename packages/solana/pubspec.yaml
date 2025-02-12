@@ -15,7 +15,9 @@ dependencies:
   convert: ^3.0.1
   cryptography: ^2.5.0
   decimal: ^2.1.0
-  ed25519_hd_key: ^2.1.0
+  ed25519_hd_key:
+    git:
+      url: https://github.com/RoqquPay/dart-ed25519-hd-key.git
   freezed_annotation: ^2.0.0
   http: ^1.1.0
   json_annotation: ^4.4.0
